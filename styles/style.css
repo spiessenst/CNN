@@ -179,7 +179,7 @@ article span:before {
 }
 
 @media screen and (max-width: 444px) {
-  main section article {
+  main section .articles {
     display: block;
   }
 }
