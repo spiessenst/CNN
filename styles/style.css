@@ -164,7 +164,7 @@ article span:before {
   padding: 3px;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 540px) {
   main {
     width: 100%;
     margin: 0px auto;
@@ -173,13 +173,16 @@ article span:before {
     display: none;
   }
 
-  section {
+  .cols section {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 444px) {
-  main section .articles {
+  main section article {
     display: block;
+  }
+
+  section article img,
+  section article p {
+    width: 100%;
   }
 }
